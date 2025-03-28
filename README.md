@@ -92,19 +92,17 @@ if ( mfrc522.PICC_IsNewCardPresent())
     }
     }
 ```
+![SPICard](https://github.com/user-attachments/assets/a76bf756-7d58-453a-8a52-5084ffe1cfc3)
 
 ### **Funcionamiento del código**
 El programa inicializa la comunicación SPI y configura el lector RFID MFRC522. Luego, constantemente revisa si hay nuevas tarjetas presentes. Cuando una tarjeta se acerca al lector, el programa lee su UID y lo muestra en el monitor serie.
 
 ### **Ejemplo de salida esperada en el monitor serie:**
+De la tarjeta:
 ```
 Lectura del UID
-Card UID: 27 12 65 25
+Card UID: 05 E7 F7 04
 ```
 
-## **3. Conclusiones**
-- Se logró implementar con éxito la comunicación SPI para la lectura y escritura en una tarjeta SD, permitiendo almacenar y recuperar información.
-- Se comprobó el funcionamiento del lector RFID utilizando SPI para identificar tarjetas a través de su UID.
-- La práctica permitió comprender cómo utilizar el protocolo SPI en dispositivos embebidos, lo que amplía las capacidades de comunicación de la ESP32.
 
 

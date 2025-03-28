@@ -54,6 +54,8 @@ archivo.txt:
 Soy el mejor del mundo
 ```
 
+![SD](https://github.com/user-attachments/assets/895412b4-20b4-4887-8a45-959b0d6397d1)
+
 
 ### **Ejercicio 2: Lectura de una etiqueta RFID**
 
@@ -92,7 +94,7 @@ if ( mfrc522.PICC_IsNewCardPresent())
     }
     }
 ```
-![SPICard](https://github.com/user-attachments/assets/a76bf756-7d58-453a-8a52-5084ffe1cfc3)
+
 
 ### **Funcionamiento del código**
 El programa inicializa la comunicación SPI y configura el lector RFID MFRC522. Luego, constantemente revisa si hay nuevas tarjetas presentes. Cuando una tarjeta se acerca al lector, el programa lee su UID y lo muestra en el monitor serie.
@@ -103,6 +105,8 @@ De la tarjeta:
 Lectura del UID
 Card UID: 05 E7 F7 04
 ```
+![SPICard](https://github.com/user-attachments/assets/a76bf756-7d58-453a-8a52-5084ffe1cfc3)
+
 
 
 
